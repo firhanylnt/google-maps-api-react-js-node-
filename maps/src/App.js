@@ -80,7 +80,7 @@ export default class App extends Component {
         selectedMarker={this.state.selectedMarker}
         markers={this.state.marks}
         onClick={this.handleClick}
-        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDveizC57Q8h-pRZ-NaqIDYZu0ICyAhqEE"
+        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=YOUR-API-KEY"
         loadingElement={<div style={{ height: `100%` }} />}
         containerElement={<div style={{ height: `100vh` }} />}
         mapElement={<div style={{ height: `100%` }} />}
